@@ -6,7 +6,7 @@ const StartScreen = ({navigation}) => {
     <View style={styles.container}>
       {/* Logo */}
       <Image
-        source={require('./src/IMG/Nwjns.png')} // Ganti dengan path gambar Anda
+        source={require('/src/IMG/Nwjns.png')} // Ganti dengan path gambar Anda
         style={styles.logo}
       />
 

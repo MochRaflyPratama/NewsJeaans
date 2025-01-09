@@ -1,15 +1,12 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import { View, Text } from 'react-native'
+import React from 'react'
 
-const Halaman1 = props => {
-  return(
+const Halaman1 = () => {
+  return (
     <View>
-        <Text style={{fontSize:50}}>
-            Nama Saya: {props.nama_depan} {props.nama_belakang}
-        </Text>
+      <Text>Halaman1</Text>
     </View>
-  );
+  )
 }
 
-
-export default Halaman1;
+export default Halaman1
