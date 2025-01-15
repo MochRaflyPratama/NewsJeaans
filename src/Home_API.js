@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {ActivityIndicator, FlatList, Text, View} from 'react-native';
 
-const Home = () => {
+const Home1 = () => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 
@@ -45,4 +45,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home1;
